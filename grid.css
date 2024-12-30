@@ -1,0 +1,153 @@
+.shop-grid{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: 255px 255px 255px;
+    gap: 50px;
+    text-align: center; 
+    gr
+    
+}
+.item img{
+    width: 250px;
+    object-fit: contain;
+}
+.libre1{
+    height: 250px;
+}
+.item p {
+    width: 265px;
+    font-size: 12px;
+    color: gray;
+
+}
+.star span{
+    font-size: 21px;
+    letter-spacing: 1px;
+    
+}
+.header-text{
+    font-weight: bold;
+    font-size: 12px;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rating{
+    padding-left: 3px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.promotion{
+    width: 240px;
+    height: 100%;
+}
+.nav{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+    position: relative;
+    width: 1175px;
+}
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    line-height: 35px;
+    font-size: 12px;
+    width: 250px;
+    margin-right:30px;
+
+    
+    
+}
+.link-nav{
+    display: flex;
+    flex-direction: column;
+}
+.link-nav a{
+    text-decoration: none;
+    color: black;
+
+}
+.sidebar-main , .link-nav , .option-bar{
+    border: none;
+    border-bottom: 1px solid rgb(209, 206, 206);
+    
+}
+.option-bar{
+    padding: 15px 10px 15px 0px;
+    display: flex;
+}
+.sidebar-main{
+    font-size: 11px;
+    padding-bottom: 12px;
+
+}
+.select-box{
+    padding: 15px;
+    font-size: 13px;
+    border-color: black ;
+}
+.header-shop{
+    display: flex;
+    position: absolute;
+    left: 290px;
+    justify-content: space-between;
+    width: 870px;
+    text-align: center;
+    
+}
+.header-shop p{
+    font-size: 12px;
+    color: gray;
+}
+.main-event{
+    height: 465px;
+    object-fit: contain;
+}
+.icon-header{
+    display: flex;
+    position: relative;
+    align-items: center;
+    
+}
+.icon-header img {
+    height: 17px;
+    padding-right: 17px;
+    cursor: pointer;
+}
+.basket{
+    position: relative;
+    cursor: pointer;
+
+}
+.basket div {
+    position: absolute;
+    left: 14px;
+    bottom: 4px;
+    
+}
+.search-bar{
+    background-color: black;
+    color: white;
+    padding: 15px 55px 20px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+.headline{
+    display: flex;
+    gap: 37px;
+}
+.search{
+    position: absolute;
+    bottom: -15px;
+    right: 50px;
+}
+.search i{
+    margin-left: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}

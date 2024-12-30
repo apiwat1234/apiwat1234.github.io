@@ -1,0 +1,161 @@
+html{
+  font-size: 12px;
+  
+}
+
+
+.section {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.header-2 h2 {
+  font-size: 32px;
+  text-align: center;
+}
+.img-sec img {
+  height: 370.59px;
+  width: 222px;
+}
+.img-sec {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+.section span {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.bar img {
+  margin-top: 40px;
+  width: 149px;
+  height: 21.29px;
+  object-fit: cover;
+}
+.bar .bar4 {
+  margin-top: 22px;
+}
+.img-sec button {
+  cursor: pointer;
+  width: 222px;
+  height: 51.6px;
+  font-weight: 600;
+  background-color: white;
+  border-width: 1px;
+  font-size: 14.5px;
+  letter-spacing: 0.5px;
+}
+.img-sec button:hover {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: inset 1.5px 1px 1.5px rgba(20, 20, 20, 0.3);
+}
+
+.main-lib {
+  margin-top: 35px;
+  height: 495px;
+  position: relative;
+}
+.main-lib img {
+  height: 600px;
+}
+.main-logo {
+  display: flex;
+  position: relative;
+}
+.text-overlay {
+  color: white;
+  position: absolute;
+  top: 130px;
+  right: 160px;
+}
+.text-overlay span {
+  font-weight: lighter;
+}
+.text-overlay h1 {
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+.text-overlay p {
+  width: 350px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-overlay button {
+  color: white;
+  background-color: black;
+  border-width: 1px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 18px 45px;
+  cursor: pointer;
+}
+.break-text {
+  white-space: pre-line;
+}
+.header-text{
+  font-size: 12px;
+}
+del{
+  color: gray;
+}
+.promo{
+  position: relative;
+}
+.hover{
+  position: absolute;
+  top: 0px;
+  font-size: 0.9rem;
+  left: 0px;
+  opacity: 0.6;
+  background-color: rgb(40, 39, 39);
+  color: white;
+  padding: 2px 11px 3px 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hover2{
+  position: absolute;
+  top: 3rem;
+  opacity: 0.6;
+  display: flex;
+  text-align: left;
+  width: 90px;
+  font-size: 0.8rem;
+  background-color: rgb(40, 39, 39);
+  color: white;
+  padding: 2px 2px 3px 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text-new{
+  font-size: 14px;
+  color: black !important;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+.text-news{
+  font-size: 14px;
+  color: black !important;
+  margin-top: 0px;
+  margin-bottom: 26px;
+}
+.mores{
+  grid-column: 1 / -1; /* ให้ปุ่มขยายความกว้างครอบคลุมทุกคอลัมน์ */
+  text-align: center; /* จัดปุ่มให้อยู่ตรงกลาง */
+  margin-top: 20px; /* เพิ่มระยะห่างด้านบน */
+}
+.more-button{
+  color: white;
+  border-style: none;
+  padding: 18px 85px 18px 85px;
+  background-color: black;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  font-weight: bold;
+  margin-top: 0px;
+  width: 260px;
+  cursor: pointer;
+}

@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  height: 3000px;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.ysl {
+  cursor: pointer;
+  position: relative;
+}
+.user {
+}
+
+.header {
+  background-color: black;
+  height: 50px;
+  margin-top: 0px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.header-text {
+  padding-top: 20px;
+  font-size: 15px;
+}
+.button-shop {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop {
+  height: 25px;
+  background-color: white;
+  border: none;
+  font-weight: 550;
+  letter-spacing: 1px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+  border-width: 1px;
+}
+.main,
+.middle-header {
+  display: flex;
+  flex-direction: row;
+}
+.select {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+}
+.left-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 15px;
+  margin-bottom: 55px;
+  gap: 20px;
+  font-size: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.logo {
+  width: 256px;
+  height: 50px;
+  margin-top: 20px;
+  padding-right: 110px;
+}
+.main {
+  height: 145px;
+  justify-content: space-between;
+  position: relative;
+}
+.right-header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 55px;
+}
+.right-header {
+  color: gray;
+  font-size: 10px;
+  margin-right: 20px;
+}
+.video {
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+}
+.video-preview {
+  position: relative;
+}
+.promote {
+  position: absolute;
+  bottom: 130px;
+  right: 650px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 250px;
+  text-align: center;
+}
+.new {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.header-close {
+  position: absolute;
+  top: 20px;
+  right: 12px;
+  font-size: 8px;
+}
+.select-size {
+  padding: 15px 25px 15px 25px;
+  width: 260px;
+  cursor: pointer;
+}
+.size-value {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.size-value label {
+  position: absolute;
+  top: -7px;
+  left: 20px;
+
+  background-color: white;
+  font-size: 10px;
+  width: 75px;
+  color: rgb(62, 62, 62);
+}
+.add-cart {
+  color: white;
+  border-style: none;
+  padding: 18px 85px 18px 85px;
+  background-color: black;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  font-weight: bold;
+  margin-top: 0px;
+  width: 260px;
+  cursor: pointer;
+}
+.cart {
+  margin-top: -9px;
+}
+.cart p {
+  font-weight: bold;
+  font-size: 14px !important;
+  color: black !important;
+}
+.floating-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.9;
+  z-index: 1000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating-background:target {
+  display: flex;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.holiday{
+  position: relative;
+}
+.holiday-hover{
+  display: flex;
+  position: absolute;
+  z-index: 1000 ;
+  width: 127.5rem;
+  height: 29rem;
+  background-color: white;
+  top: 2.8rem;
+  left: -150%;
+  border-width: 1px;
+  border-color: rgb(197, 195, 195);
+  border-style: solid;
+  visibility: hidden;
+  transition: all 0.1s;
+
+}
+.special:hover .holiday-hover{
+  visibility: visible;
+  box-shadow: inset;
+}

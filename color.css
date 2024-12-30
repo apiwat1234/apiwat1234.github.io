@@ -1,0 +1,43 @@
+.lg{
+    height: 50px;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    padding-right: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.3s ease;
+
+}
+.main{
+    background-color: #FFF;
+    letter-spacing: 1px;
+}
+.category{
+    position: absolute;
+    display: flex;
+   bottom: 0;
+   right: 200px;
+   left: 180px;
+   margin-bottom: 18px;
+   font-size: 11px;
+   gap: 30px;
+   font-family: ITCAvantGardeStd-Demi, sans-serif;;
+   cursor: pointer;
+   width: 1220px;
+   
+   
+}
+.special{
+    color: #ffae00 !important;
+    font-weight: bold;
+    font-size: 12px;
+}
+span{
+    font-weight: 600;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,717 @@
+.holiday-gift{
+    display: flex;
+    flex-direction: row;
+    padding-left: 13rem;
+    padding-top: 4rem;
+    gap: 5rem;
+    color: black;
+    letter-spacing: normal;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.holiday-gift img{
+    width: 250px;
+    height: 250px;
+}
+.special-offer{
+    position: relative;
+}
+.special-hover{
+    display: flex;
+  position: absolute;
+  z-index: 1000;
+  width: 126rem;
+  height: 8rem;
+  background-color: white;
+  top: 2.8rem;
+  left: -316%;
+  border-width: 1px;
+  border-color: rgb(197, 195, 195);
+  border-style: solid;
+  align-items: center;
+    visibility: hidden;
+    transition: visibility 0.1s ease-in-out;
+}
+
+.special-text{
+    display: flex;
+    padding-top: 1.8rem;
+    justify-content: space-between;
+    padding-left: 13rem;
+    font-size: 1.2rem;
+    letter-spacing: normal;
+    gap: 5rem;
+}
+.special-hover::before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(132, 132, 132);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -11px;
+    width: 0;
+    height: 0;
+    left: 25%;
+}
+.special-hover::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -10px;
+    width: 0;
+    height: 0;
+    left: 25%;   
+}
+.special-offer:hover .special-hover{
+    visibility: visible;
+}
+.perfume{
+    position: relative;
+}
+.perfume-hover{
+    position: absolute;
+    z-index: 1000;
+    width: 126rem;
+    height: 26.5rem;
+    background-color: white;
+    top: 2.8rem;
+    left: -1340%;
+    border-width: 1px;
+    border-color: rgb(197, 195, 195);
+    border-style: solid;
+    visibility: hidden;
+    transition: visibility 0.1s ease-in-out;
+}
+.perfume-gift{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   margin: 4rem 0 0 13rem;
+   width: 100rem;
+   letter-spacing: normal;
+   font-size: 1.1rem;
+}
+.perfume-gift img{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+.perfume-gift li{
+    color: rgb(123, 121, 121);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+.perfume-gift a{
+    color: rgb(171, 171, 171);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.perfume-img{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.perfume-img:hover{
+    font-weight: lighter;
+}
+.perfume-gift li:hover{
+    color: rgb(77, 77, 77);
+}
+
+.perfume-hover::before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(96, 96, 96);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 0;
+    height: 0;
+    top: -11px;
+    left: 33%;
+}
+.perfume-hover::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(253, 249, 249);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 0;
+    height: 0;
+    top: -10px;
+    left: 33%;
+}
+.perfume-container{
+    position: relative;
+}
+.perfume:hover .perfume-hover{
+    visibility: visible;
+}
+.makeup{
+    position: relative;
+}
+.makeup-hover{
+    position: absolute;
+    z-index: 1000;
+    width: 126rem;
+    height: 29rem;
+    background-color: white;
+    top: 2.8rem;
+    left: -850%;
+    border-width: 1px;
+    border-color: rgb(197, 195, 195);
+    border-style: solid;
+    visibility: hidden;
+    transition: visibility 0.1s ease-in-out;
+}
+.makeup-gift{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 3rem 0 0 13rem;
+    width: 100rem;
+    letter-spacing: normal;
+    font-size: 1.1rem;
+}
+.makeup-gift img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.makeup-gift li{
+    color: rgb(123, 121, 121);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+.makeup-gift a{
+    color: rgb(175, 174, 174);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.makeup-gift li:hover{
+    color: rgb(77, 77, 77);
+}
+.makeup-img{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.makeup-img:hover{
+    font-weight: lighter;
+}
+.makeup-hover::before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(132, 132, 132);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -11px;
+    width: 0;
+    height: 0;
+    left: 39%;
+}
+.makeup-hover::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -10px;
+    width: 0;
+    height: 0;
+    left: 39%;   
+}
+.makeup:hover .makeup-hover{
+    visibility: visible;
+}
+.skincare{
+    position: relative;
+}
+.skincare-hover{
+    position: absolute;
+    z-index: 1000;
+    width: 125.8rem;
+    height: 25rem;
+    background-color: white;
+    top: 2.8rem;
+    left: -1500%;
+    border-width: 1px;
+    border-color: rgb(197, 195, 195);
+    border-style: solid;
+    visibility: hidden;
+    transition: visibility 0.1s ease-in-out;
+}
+.skincare-gift{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin: 3rem 0 0 13rem;
+    width: 100rem;
+    letter-spacing: normal;
+    font-size: 1.1rem;
+}
+.skincare-gift li{
+    color: rgb(123, 121, 121);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 3.5rem;
+}
+.skincare-gift a{
+    color: rgb(175, 174, 174);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.skincare-gift li:hover{
+    color: rgb(111, 109, 109);
+    font-weight: bold;
+}
+.skincare-hover::before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(132, 132, 132);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -11px;
+    width: 0;
+    height: 0;
+    left: 45%;
+}
+.skincare-hover::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -10px;
+    width: 0;
+    height: 0;
+    left: 45%;   
+}
+.skincare:hover .skincare-hover{
+    visibility: visible;
+}
+.present{
+    position: relative;
+
+}
+.present-hover{
+    position: absolute;
+    z-index: 1000;
+    width: 125.8rem;
+    height: 30rem;
+    background-color: white;
+    top: 2.8rem;
+    left: -650%;
+    border-width: 1px;
+    border-color: rgb(197, 195, 195);
+    border-style: solid;
+    visibility: hidden;
+    transition: visibility 0.1s ease-in-out;
+}
+.present-gift{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 3rem 0 0 13rem;
+    letter-spacing: normal;
+    font-size: 1.1rem;
+}
+.present-gift img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.present-gift li{
+    color: rgb(117, 117, 117);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    line-height: 3rem;
+}
+.present-gift a{
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+.present-gift li:hover{
+    color: rgb(77, 77, 77);
+    font-weight: bold;
+}
+.present-gift a:hover{
+    font-weight: bold;
+    color: rgb(77, 77, 77);
+}
+.present-img{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.present-img:hover{
+    font-weight: lighter;
+}
+.present-hover::before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(132, 132, 132);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -11px;
+    width: 0;
+    height: 0;
+    left: 59%;
+}
+.present-hover::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -10px;
+    width: 0;
+    height: 0;
+    left: 59%;   
+}
+.present:hover .present-hover{
+    visibility: visible;
+}
+.beauty-club{
+    position: relative;
+}
+.beauty-hover{
+    position: absolute;
+    z-index: 1000;
+    width: 131rem;
+    height: 38rem;
+    background-color: white;
+    top: 2.8rem;
+    left: -900%;
+    border-width: 1px;
+    border-color: rgb(197, 195, 195);
+    border-style: solid;
+    visibility: hidden;
+    transition: visibility 0.1s ease-in-out;
+}
+.beauty-gift{
+    display: grid;
+    grid-template-columns: 500px 300px 1fr;
+    margin: 3rem 0 0 13rem;
+    letter-spacing: normal;
+    font-size: 1.1rem;
+}
+.beauty-gift img{
+    width: 450px;
+    height: 230px;
+    object-fit: cover;
+}
+.beauty-img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.register{
+    border-width: 1px;
+    padding: 18px;
+    width: 450px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.beauty-sign{
+    border-style: none;
+    background-color: black;
+    padding: 18px;
+    width: 450px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.register:hover{
+    box-shadow: inset 0 0 0.7px 1px rgba(0, 0, 0, 1);
+}
+.beauty-text h4{
+    font-size: 1.6rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.beauty-text h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.beauty-text p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: pre-line;
+}
+.beauty-text a{
+    color: black;
+    font-size: 1rem;
+}
+.beauty-club:hover .beauty-hover{
+    visibility: visible;
+}
+.beauty-hover::before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(132, 132, 132);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -11px;
+    width: 0;
+    height: 0;
+    left: 69%;
+}  
+.beauty-hover::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -10px;
+    width: 0;
+    height: 0;
+    left: 69%;   
+}
+.about-us{
+    position: relative;
+}
+.about-hover{
+    position: absolute;
+    z-index: 1000;
+    width: 131rem;
+    height: 25rem;
+    background-color: white;
+    top: 2.8rem;
+    left: -1939%;
+    border-width: 1px;
+    border-color: rgb(197, 195, 195);
+    border-style: solid;
+    visibility: hidden;
+    transition: visibility 0.1s ease-in-out;
+}
+.about-gift{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    margin: 3rem 0 0 13rem;
+    letter-spacing: normal;
+    font-size: 1.1rem;
+}   
+.about-gift li{
+    color: rgb(123, 121, 121);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+.about-gift a{
+    color: rgb(175, 174, 174);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+.about-gift li:hover{
+    color: rgb(77, 77, 77);
+}
+.about-gift a:hover{
+    color: rgb(77, 77, 77);
+}
+.about-hover::before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(132, 132, 132);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -11px;
+    width: 0;
+    height: 0;
+    left: 73%;
+}
+.about-hover::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    top: -10px;
+    width: 0;
+    height: 0;
+    left: 73%;   
+}
+.about-us:hover .about-hover{
+    visibility: visible;
+}
+.about-gift h3{
+    font-size: 1.4rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.holiday-hover::before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(96, 96, 96);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 0;
+    height: 0;
+    top: -11px;
+    left: 16%;
+}
+.holiday-hover::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(253, 249, 249);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 0;
+    height: 0;
+    top: -10px;
+    left: 16%;
+}
+.helping{
+    position: relative;
+}
+.help-hover{
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    width: 75rem;
+    height: 15rem;
+    left: -150%;
+    top: 30px;
+    border-width: 1px;
+    border-color: rgb(197, 195, 195);
+    border-style: solid;
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+    border-radius: 2px;
+}
+.helping{
+    position: relative;
+}
+.help-hover::before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(96, 96, 96);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 0;
+    height: 0;
+    top: -11px;
+    left: 23%;
+}
+.help-hover::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(253, 249, 249);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 0;
+    height: 0;
+    top: -10px;
+    left: 23%;
+}
+.help-text{
+    display: grid;
+    grid-template-columns: 300px 150px 300px;
+    padding: 10px 0px 10px 100px;
+}
+.help-text img{
+    width: 20px;
+    height: 20px;
+}
+.help-text li{
+    font-size: 1.1rem;
+    color: rgb(123, 121, 121);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8rem;
+    white-space: pre-line;
+}
+.help-text li:hover{
+    color: rgb(77, 77, 77);
+}
+.help-text h2{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.helping:hover .help-hover{
+    visibility: visible;
+}
+.offer-online{
+    position: relative;
+}
+.offer-hover{
+    position: absolute;
+    z-index: 1000;
+    background-color: white;
+    width: 98rem;
+    height: 17rem;
+    left: -250%;
+    top: 30px;
+    border-width: 1px;
+    border-color: rgb(197, 195, 195);
+    border-style: solid;
+    border-radius: 2px;
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+    border-radius: 2px;
+}
+.offer-text{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 15px;
+    line-height: 16px;
+    white-space: pre-line;
+}
+.offer-text img{
+    width: 25px;
+    height: 25px;
+}
+.offer-text p {
+    font-size: 1.1rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0;
+    padding: 0;
+    width: 200px;
+    font-weight: bold;
+}
+.offer-text span{
+    font-weight: lighter;
+    font-size: 1.1rem;
+    color: rgb(123, 121, 121);
+    font-family: 'Times New Roman', Times, serif;
+}
+.offer-hover::before{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(96, 96, 96);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 0;
+    height: 0;
+    top: -11px;
+    left: 28%;
+}
+.offer-hover::after{
+    content: "";
+    position: absolute;
+    border-bottom: 10px solid rgb(253, 249, 249);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    width: 0;
+    height: 0;
+    top: -10px;
+    left: 28%;
+}
+.offer-online:hover .offer-hover{
+    visibility: visible;
+}
