@@ -24,3 +24,7 @@ a visually accurate and functional static website as part of my portfolio to dem
 ## **Technologies Used**
 - **HTML5**: For structuring the web pages.
 - **CSS3**: For styling and layout.
+---
+## **Contact**
+- **Email** : overloadstyle@gmail.com
+- **Github** : GitHub: https://github.com/apiwat1234
